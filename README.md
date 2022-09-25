@@ -1,10 +1,10 @@
 # Car-Shop-v.2
 
 Simple website for selling and listing cars created by express and handlebars for back-end.
-It uses own REST server and MongoDB Atlas as database for the backend.
+It uses MongoDB Atlas as database for the back-end.
 
 Supported functionality: login, register, logout, create, edit, search and delete.
-Authorization for users uses JWT token. Passwords for users are stored hashed in database using Bcrypt.
+Passwords for users are stored hashed in database using Bcrypt.
 
 package.json for client installs lite-server, lit-html and mocha for testing.
 
