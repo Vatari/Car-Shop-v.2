@@ -4,7 +4,8 @@
   "description": "Simple website for selling cars",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon"
+    "start": "nodemon",
+    "local": "node index.js"
   },
   "keywords": [],
   "author": "Petar Zhelev",
