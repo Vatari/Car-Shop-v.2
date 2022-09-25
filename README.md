@@ -16,7 +16,7 @@ live demo soon
 2. open server folder and run npm i
 3. open folder in terminal and run npm i
 4. run "npm run local" 
-6. open browser at http://localhost:3000 or http://127.0.0.1:4000
+6. open browser at http://localhost:3000 or http://127.0.0.1:3000
 7. enjoy
 
 To run tests use "npm test" in client folder
