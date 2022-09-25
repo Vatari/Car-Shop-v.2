@@ -1,4 +1,4 @@
-# Car-Shop-v.2
+Car-Shop-v.2
 
 Simple website for selling and listing cars created by express and handlebars for back-end.
 It uses MongoDB Atlas as database for the back-end.
