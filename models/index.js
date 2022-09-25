@@ -1,11 +1,11 @@
 const mongoose = require("mongoose");
 require("./Car");
 require("./Accessory");
-const connectionString = "mongodb://localhost:27017/Cars";
+const dbUrl = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@cluster0.qfalkak.mongodb.net/car-shop2`;
 
 async function init() {
   try {
-    await mongoose.connect(connectionString, {
+    await mongoose.connect(dbUrl, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
       autoIndex: false,
