@@ -6,7 +6,7 @@ It uses MongoDB Atlas as database for the back-end.
 Supported functionality: login, register, logout, create, edit, search and delete.
 Passwords for users are stored hashed in database using Bcrypt.
 
-package.json for client installs express and express-handlebars.
+package.json for client installs express and express-handlebars, and some other libraries needed.
 
 live demo soon
 
