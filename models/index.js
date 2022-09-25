@@ -1,8 +1,9 @@
 const mongoose = require("mongoose");
+const ENV = require("dotenv");
 require("./Car");
 require("./Accessory");
-const ENV = require("dotenv");
-ENV.config({ path: "../.env" });
+ENV.config({ path: "./.env" });
+console.log(process.env.DB_PASSWORD);
 const dbUrl = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@cluster0.qfalkak.mongodb.net/car-shop2`;
 
 async function init() {
