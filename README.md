@@ -18,5 +18,3 @@ live demo soon
 4. run "npm run local" 
 6. open browser at http://localhost:3000 or http://127.0.0.1:3000
 7. enjoy
-
-To run tests use "npm test" in client folder
