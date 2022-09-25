@@ -10,7 +10,7 @@ package.json for client installs express and express-handlebars, and some other 
 
 live demo soon
 
- Local installation:
+Local installation:
 
 1. Download zipped folder
 2. open server folder and run npm i
