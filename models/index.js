@@ -1,6 +1,8 @@
 const mongoose = require("mongoose");
 require("./Car");
 require("./Accessory");
+const ENV = require("dotenv");
+ENV.config({ path: "../.env" });
 const dbUrl = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@cluster0.qfalkak.mongodb.net/car-shop2`;
 
 async function init() {
@@ -18,6 +20,7 @@ async function init() {
       console.error(err);
     });
   } catch (err) {
+    console.log(err);
     console.error("Error connecting to database");
     process.exit(1);
   }
