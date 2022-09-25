@@ -8,7 +8,7 @@ Passwords for users are stored hashed in database using Bcrypt.
 
 package.json for client installs express and express-handlebars.
 
-live demo here: http://85.130.31.118:2210
+live demo soon
 
  Local installation:
 
