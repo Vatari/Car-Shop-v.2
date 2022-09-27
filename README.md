@@ -8,7 +8,7 @@ Passwords for users are stored hashed in database using Bcrypt.
 
 package.json for client installs express and express-handlebars, and some other libraries needed.
 
-live demo soon
+live demo: https://project-car-shop.herokuapp.com/
 
 Local installation:
 
