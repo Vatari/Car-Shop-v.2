@@ -21,6 +21,7 @@ const accessoryService = require("./services/accessory");
 const authService = require("./services/auth");
 const attach = require("./controllers/attach");
 const authController = require("./controllers/auth");
+const PORT = process.env.PORT || 3000;
 
 start();
 
@@ -80,5 +81,5 @@ async function start() {
 
   app.all("*", notFound);
 
-  app.listen(process.env.PORT || 3000, () => console.log("Server listening on port 3000"));
+  app.listen(PORT, () => console.log(`Server listening on port ${PORT}`));
 }
