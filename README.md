@@ -14,7 +14,9 @@ Local installation:
 
 1. Download zipped folder
 2. open server folder and run npm i
-3. open folder in terminal and run npm i
-4. run "npm run local" 
-6. open browser at http://localhost:3000 or http://127.0.0.1:3000
-7. enjoy
+3. create .env file in root directory and set DB_USERNAME and DB_PASSWORD
+4. install MongoDB locally and set address /models/index.js
+5. open folder in terminal and run npm i
+6. run "npm run local" 
+7. open browser at http://localhost:3000 or http://127.0.0.1:3000
+8. enjoy
