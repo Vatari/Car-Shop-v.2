@@ -7,9 +7,8 @@ async function getAll(query) {
   const options = {
     isDeleted: false,
   };
-
   if (query.search) {
-    options.name = { name: new RegExp(query.search, "i") };
+    options.name = new RegExp(query.search, "i");
   }
   if (query.from) {
     options.price = { $gte: Number(query.from) };
@@ -20,7 +19,6 @@ async function getAll(query) {
     }
     options.price.$lte = Number(query.to);
   }
-
   const cars = await Car.find(options);
   return cars.map(carViewModel);
 }
