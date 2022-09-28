@@ -6,7 +6,7 @@ It uses MongoDB Atlas as database for the back-end, but it can be easily switche
 Supported functionality: login, register, logout, create, edit, search and delete.
 Passwords for users are stored hashed in database using Bcrypt.
 
-package.json for client installs express and express-handlebars, and some other libraries needed.
+package.json for client installs express, mongoose and express-handlebars, and some other libraries needed.
 
 live demo: https://project-car-shop.herokuapp.com/
 
