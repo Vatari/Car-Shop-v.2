@@ -1,7 +1,7 @@
 Car-Shop-v.2
 
 Simple website for selling and listing cars created by express and handlebars for back-end.
-It uses MongoDB Atlas as database for the back-end.
+It uses MongoDB Atlas as database for the back-end, but it can be easily switched to local database.
 
 Supported functionality: login, register, logout, create, edit, search and delete.
 Passwords for users are stored hashed in database using Bcrypt.
@@ -18,6 +18,6 @@ Local installation:
 4. install MongoDB locally and set address /models/index.js
 5. server is set to port 3000, but you can change it in main index.js
 6. open folder in terminal and run npm i
-7. run "npm run local" 
+7. run "npm run local"
 8. open browser at http://localhost:3000 or http://127.0.0.1:3000
 9. enjoy
