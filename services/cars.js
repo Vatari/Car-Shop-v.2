@@ -4,6 +4,7 @@ const mongoose = require("mongoose");
 const { carViewModel } = require("./util");
 
 async function getAll(query) {
+
   const options = {
     isDeleted: false,
   };
