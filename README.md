@@ -13,7 +13,7 @@ live demo: https://project-car-shop.herokuapp.com/
 Local installation:
 
 1. Download zipped folder
-2. Open server folder and run npm i
+2. Open folder and run npm i
 3. Create .env file in root directory and set DB_USERNAME and DB_PASSWORD
 4. Install MongoDB locally and set address /models/index.js
 5. Server is set to port 3000, but you can change it in main index.js
