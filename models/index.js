@@ -1,8 +1,8 @@
 const mongoose = require("mongoose");
-//mongoose.const ENV = require("dotenv");
+mongoose.const ENV = require("dotenv");
 require("./Car");
 require("./Accessory");
-//ENV.config({ path: "./.env" });
+ENV.config({ path: "./.env" });
 
 const dbUrl = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@cluster0.qfalkak.mongodb.net/car-shop2`;
 
