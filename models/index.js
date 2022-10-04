@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-mongoose.const ENV = require("dotenv");
+const ENV = require("dotenv");
 require("./Car");
 require("./Accessory");
 ENV.config({ path: "./.env" });
