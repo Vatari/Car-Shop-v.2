@@ -32,13 +32,6 @@ router.post(
   async (req, res) => {
     const { errors } = validationResult(req);
 
-    /* if (req.body.username == "" || req.body.password == "") {
-    return res.redirect("/register");
-  }
-  if (req.body.password != req.body.repeatPassword) {
-    return res.redirect("/register");
-  } */
-
     try {
       if (errors.length > 0) {
         throw errors;
