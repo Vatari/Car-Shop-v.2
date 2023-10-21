@@ -8,7 +8,7 @@ Passwords for users are stored hashed in database using Bcrypt.
 
 package.json for client installs express, mongoose and express-handlebars, and some other libraries needed.
 
-live demo: http://he508n0vmnx.sn.mynetname.net:8086
+live demo: https://car-shop2.vetari.eu
 
 Local installation:
 
